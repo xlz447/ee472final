@@ -1,0 +1,78 @@
+[CodeCoverage]
+Enabled=_ 0
+[DisAssemblyWindow]
+NumStates=_ 1
+State 1=_ 1
+[Profiling]
+Enabled=0
+[StackPlugin]
+Enabled=1
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnHow=0
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[DebugChecksum]
+Checksum=-544300870
+[Exceptions]
+StopOnUncaught=_ 0
+StopOnThrow=_ 0
+[InstructionProfiling]
+Enabled=_ 0
+[CallStackLog]
+Enabled=0
+[Stack]
+FillEnabled=0
+OverflowWarningsEnabled=1
+WarningThreshold=90
+SpWarningsEnabled=1
+WarnLogOnly=1
+UseTrigger=1
+TriggerName=main
+LimitSize=0
+ByteLimit=50
+[LMIFTDIDriver]
+LMI_ResetMode=0x00000000
+[LMIFTDI]
+LMIFTDIserialNo=06100BCDA
+LMIFTDIfoundProbes=06100BCDA:FF:
+[CallStack]
+ShowArgs=0
+[Disassembly]
+MixedMode=1
+[Log file]
+LoggingEnabled=_ 0
+LogFile=_ ""
+Category=_ 0
+[TermIOLog]
+LoggingEnabled=_ 0
+LogFile=_ ""
+[DriverProfiling]
+Enabled=0
+Mode=0
+Graph=0
+Symbiont=0
+Exclusions=
+[Disassemble mode]
+mode=1
+[Breakpoints]
+Bp0=_ "STD_CODE" "{$PROJ_DIR$\..\..\..\..\..\E\Dev\FreeRTOS\WorkingCopy2\Demo\Common\Minimal\IntQueue.c}.363.2@1" 0 0 0 0 "" 0 ""
+Bp1=_ "STD_CODE" "{$PROJ_DIR$\main.c}.4444.1" 0 0 0 0 "" 0 ""
+Bp2=_ "STD_CODE" "{$PROJ_DIR$\main.c}.4444.1" 0 0 0 0 "" 0 ""
+Bp3=_ "STD_CODE" "{$PROJ_DIR$\main.c}.4444.1" 0 0 0 0 "" 0 ""
+Bp4=_ "STD_CODE" "{$PROJ_DIR$\webserver\uIP_Task.c}.350.1" 0 0 0 0 "" 0 ""
+Count=5
+[Aliases]
+A0=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\adc.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\adc.c"
+A1=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\gpio.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\gpio.c"
+A2=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\interrupt.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\interrupt.c"
+A3=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\pwm.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\pwm.c"
+A4=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\ssi.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\ssi.c"
+A5=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\sysctl.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\sysctl.c"
+A6=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\timer.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\timer.c"
+A7=_ "C:\Temp\IAR_Relase_DriverLib\ARM\examples\Luminary\Stellaris\src\uart.c" "C:\Users\Ou\Documents\StellarisWare\driverlib\uart.c"
+Count=8
+SuppressDialog=1
